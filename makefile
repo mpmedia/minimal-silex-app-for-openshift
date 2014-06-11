@@ -1,10 +1,12 @@
 #tests
 test:
 	@phpunit.sh   --bootstrap test/Bootstrap.php test
-#deploy to server
-push:
+#commit
+commit:
 	@git add .
 	@git commit -am"${message} `date`"
+#deploy to server
+push: commit
 	@git push
 
-.PHONY: push test
+.PHONY: push test commit
