@@ -25,7 +25,7 @@ class AppTest extends WebTestCase
         $client = $this->createClient();
         $crawler = $client->request('GET', '/');
         $this->assertTrue($client->getResponse()->isOk());
-        $this->assertEquals("Hello World!", $client->getResponse()->getContent());
+        $this->assertEquals("Hello OpenShift!", $client->getResponse()->getContent());
     }
 }
 

@@ -11,7 +11,7 @@ class App extends Application
     {
         parent::__construct($array);
         $this->get('/', function () {
-            return "Hello World!";
+            return "Hello OpenShift!";
         });
     }
 }
