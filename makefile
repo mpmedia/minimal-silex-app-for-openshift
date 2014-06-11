@@ -4,6 +4,6 @@ push:
 	@git commit -am"${message} `date`"
 	@git push
 test:
-	@phpunit.bat --bootstrap tests/init
+	@phpunit.sh test --bootstrap test/init.php
 
 .PHONY: push test
