@@ -1,5 +1,5 @@
 <?php
-
+/** openshift silex test */
 $loader = require(__DIR__."/vendor/autoload.php");
 
 use \Silex\Application;
