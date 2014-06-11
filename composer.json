@@ -1,0 +1,13 @@
+{
+    "name": "Mparaiso/ksenia",
+    "description": "ksenia portfolio",
+    "authors": [
+        {
+            "name": "mparaiso",
+            "email": "aikah@free.fr"
+        }
+    ],
+    "require": {
+        "silex/silex":"1.*"
+    }
+}
